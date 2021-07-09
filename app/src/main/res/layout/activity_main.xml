@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:scrollbarThumbHorizontal="@drawable/sfondo1"
+        android:scrollbarThumbVertical="@drawable/sfondo1"
+        android:scrollbarTrackVertical="@drawable/sfondo1"
+        android:src="@drawable/sfondo1"
+        app:srcCompat="@drawable/sfondo1" />
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@color/red"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:hint="INSERISCI NOME"
+        android:inputType="textPersonName"
+        android:textColor="@color/red"
+        android:textColorHint="@color/red"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="@color/red"
+        android:text="CLICCA"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</FrameLayout>
